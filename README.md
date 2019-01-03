@@ -5,7 +5,7 @@ You can access it from 18.218.82.91 with port number 8080 using any browser.
 1) /messages takes a string message as POST and returns its SHA256 hashed version,
 using the command:  curl -X POST --data 'message=*enter message here*' http://18.218.82.91:8080/messages/
 2) /messages/<hash> returns the original version of the hashed message as GET
-using the command: curl http://18.218.82.91:1234/messages/*enter hash*
+using the command: curl http://18.218.82.91:1234/messages/*enterhash*
 a request to the nonexistent message returns 404 error.
 
 Additional Questions:
